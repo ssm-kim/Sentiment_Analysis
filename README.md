@@ -7,3 +7,6 @@ Sentiment Analysis / Issue Index Analysis
 2022.05.16 : version_02
 - Sentiment Analysis / Data Preprocessing Completion
 - Add Raw_Dataset Folder
+
+2022.05.20 : version_03
+- Modify Sentiment Analysis
