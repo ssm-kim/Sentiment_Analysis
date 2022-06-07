@@ -10,3 +10,6 @@ Sentiment Analysis / Issue Index Analysis
 
 2022.05.20 : version_03
 - Modify Sentiment Analysis
+
+2022.06.07 : version_04
+- Modify Sentiment Analysis ( Progress 90% ) / Issue Index Analysis (  Progress 100%  )

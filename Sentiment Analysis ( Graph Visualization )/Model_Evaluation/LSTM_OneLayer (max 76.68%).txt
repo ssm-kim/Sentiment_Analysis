@@ -1,0 +1,15 @@
+76.84% 성능이 제일 좋음. ( 내용 요약본 / 8 : 2)
+
+모델 구축
+model_01.add(Embedding(total_cnt, 100))
+model_01.add(LSTM(128))
+model_01.add(Dense(3, activation='sigmoid'))
+model_01.summary()
+
+하이퍼 파라미터 설정
+rmsprop = RMSprop(learning_rate=0.001, rho=0.9, decay=0.0001, epsilon=None)
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=30)
+mc = ModelCheckpoint('bilstm.h5', monitor='val_acc', mode='max', verbose=1, save_best_only=True)
+
+model_01.compile(optimizer=rmsprop, loss='binary_crossentropy', metrics=['accuracy'])
+history = model_01.fit(x_train_final, y_train, epochs=30, callbacks=[es, mc], batch_size=256, validation_split=0.2)
