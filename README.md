@@ -1,5 +1,4 @@
-# version_01
-Sentiment Analysis / Issue Index Analysis
+# Sentiment / Issue Index Analysis
 ==================================================
 2022.05.09 : version_01 
 - Issue Index Analysis / WordCloud Completion
@@ -13,3 +12,6 @@ Sentiment Analysis / Issue Index Analysis
 
 2022.06.07 : version_04
 - Modify Sentiment Analysis ( Progress 90% ) / Issue Index Analysis (  Progress 100%  )
+
+2022.06.15 : version_05
+- Modify Sentiment Analysis ( Progress 100% ) / Issue Index Analysis (  Progress 100%  )
